@@ -39,31 +39,22 @@ public class Restaurant_odering_system {
 					
 					if(s_type==1) {
 						bill += "Kakori Kebabs --- 150rs....\n";
+						t_amount += 150;// t_amount = Total amount
 					}
 					if(s_type==2) {
 						bill += "Dahi Kebabs --- 120rs....\n";
-					}
-					if(s_type==3) {
-						bill += "Paneer Tikka --- 110rs....\n";
-					}
-					if(s_type==4) {
-						bill += "Caprese Salad --- 100rs....\n";
-					}
-					
-					
-					if(s_type==1) {
-						t_amount += 150;// t_amount = Total amount 
-					}
-					if(s_type==2) {
 						t_amount += 120;
 					}
 					if(s_type==3) {
+						bill += "Paneer Tikka --- 110rs....\n";
 						t_amount += 110;
 					}
 					if(s_type==4) {
+						bill += "Caprese Salad --- 100rs....\n";
 						t_amount += 100;
 					}
 					break;
+					
 				case 2 ://Case using for Main course menu....
 					System.out.println("Select the Main Course Items from menu:");
 					System.out.println("By choosing the Item numbers---");
@@ -77,30 +68,22 @@ public class Restaurant_odering_system {
 					
 					if(mc_type==1) {//mc_type = Main course type....
 						bill += "Curry Rice --- 200rs....\n";
-					}
-					if(mc_type==2) {
-						bill += "Butter Chicken --- 180rs....\n";
-					}
-					if(mc_type==3) {
-						bill += "Dal Makhani --- 210rs....\n";
-					}
-					if(mc_type==4) {
-						bill += "Biryani --- 250rs....\n";
-					}
-					
-					if(mc_type==1) {
 						t_amount += 200;
 					}
 					if(mc_type==2) {
+						bill += "Butter Chicken --- 180rs....\n";
 						t_amount += 180;
 					}
 					if(mc_type==3) {
+						bill += "Dal Makhani --- 210rs....\n";
 						t_amount += 210;
 					}
 					if(mc_type==4) {
+						bill += "Biryani --- 250rs....\n";
 						t_amount += 250;
 					}
 					break;
+					
 				case 3 ://Case using for Desert menu.....
 					System.out.println("Select the Desert Items from menu:");
 					System.out.println("By choosing the Item numbers---");
@@ -113,30 +96,22 @@ public class Restaurant_odering_system {
 					d_type = scan.nextInt();
 					if(d_type==1) {//d_type = Desert type....
 						bill += "Gulab jamun --- 70rs\n";
-					}
-					if(d_type==2) {
-						bill += "Kulfi --- 60rs\n";
-					}
-					if(d_type==3) {
-						bill += "tarte tain --- 80rs\n";
-					}
-					if(d_type==4) {
-						bill += "Chocolate cake --- 90rs\n";
-					}
-					
-					if(d_type==1) {
 						t_amount += 70;
 					}
 					if(d_type==2) {
+						bill += "Kulfi --- 60rs\n";
 						t_amount += 60;
 					}
 					if(d_type==3) {
+						bill += "tarte tain --- 80rs\n";
 						t_amount += 80;
 					}
 					if(d_type==4) {
+						bill += "Chocolate cake --- 90rs\n";
 						t_amount += 90;
 					}
 					break;
+					
 				case 4 ://Case using for drinks menu....
 					System.out.println("Select the Drinks from menu:");
 					System.out.println("By choosing the Item numbers---");
@@ -149,30 +124,22 @@ public class Restaurant_odering_system {
 					liq_type = scan.nextInt();
 					if(liq_type==1) {//liq_type = Drinks
 						bill += "1:Daiquiri --- 120rs....\n";
-					}
-					if(liq_type==2) {
-						bill += "Margarita --- 100rs....\n";
-					}
-					if(liq_type==3) {
-						bill += "Martini --- 110rs....\n";
-					}
-					if(liq_type==4) {
-						bill += "Bloody Mary --- 100rs....\n";
-					}
-					
-					if(liq_type==1) {
 						t_amount += 120;
 					}
 					if(liq_type==2) {
+						bill += "Margarita --- 100rs....\n";
 						t_amount += 100;
 					}
 					if(liq_type==3) {
+						bill += "Martini --- 110rs....\n";
 						t_amount += 110;
 					}
 					if(liq_type==4) {
+						bill += "Bloody Mary --- 100rs....\n";
 						t_amount += 100;
 					}
 					break;
+					
 				default : 
 					System.out.println("Item not found!Try again......");
 					
