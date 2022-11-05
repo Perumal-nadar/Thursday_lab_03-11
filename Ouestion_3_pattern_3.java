@@ -1,5 +1,13 @@
 package T_lab;
+/*
 
+A
+BC
+DEF
+GHIJ
+KLMNO
+
+*/
 public class Ouestion_3_pattern_3 {
 
 	public static void main(String[] args) {
