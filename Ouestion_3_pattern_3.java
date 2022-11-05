@@ -3,25 +3,15 @@ package T_lab;
 public class Ouestion_3_pattern_3 {
 
 	public static void main(String[] args) {
-		int i;
+		int i,j;
+		char ch='A';
 		for(i=1;i<=5;i++) {
-			if(i==1) {
-				System.out.println("A");
+			for(j=1;j<=i;j++){
+				System.out.print(ch);
+				ch++;
 			}
-			else if(i==2) {
-				System.out.println("BC");
-			}
-			else if(i==3) {
-				System.out.println("DEF");
-			}
-			else if(i==4) {
-				System.out.println("GHIJ");
-			}
-			else if(i==5) {
-				System.out.println("KLMNO");
-			}
+		System.out.println();
 		}
-
 	}
 
 }
